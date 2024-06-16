@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Couter = function(){
     const [count, setCount] = useState(0)
+
+    
 
     function increment() {
         setCount(count+1)
