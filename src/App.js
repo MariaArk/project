@@ -1,13 +1,15 @@
-import React, { useState } from "react";
-import Couter from "./component/counter";
-import ClassCounter from "./component/ClassCounter";
+import React from "react";
+import './style/App.css';
+import postItem from "./component/postItem";
 
 function App() {
-  const state = useState(0)
+  
   return (
     <div className="App">
-      <ClassCounter/>
+      <postItem/>
     </div>
+    
+
   );
 }
 
