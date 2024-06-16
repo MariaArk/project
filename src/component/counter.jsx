@@ -1,14 +1,14 @@
 import React from "react";
 
 const Couter = function(){
-    const [count, setcount] = useState(0)
+    const [count, setCount] = useState(0)
 
     function increment() {
-        setcount(count+1)
+        setCount(count+1)
         
     }
     function decrement() {
-        setcount(count-1)
+        setCount(count-1)
         
     }
     return (
